@@ -1,0 +1,35 @@
+root:WARNING warning
+root:ERROR esafbhiu
+root:WARNING warning
+root:ERROR esafbhiu
+root:WARNING warning
+root:ERROR esafbhiu
+2017-09-20 13:36:14,733:WARNING warning
+2017-09-20 13:36:14,733:ERROR esafbhiu
+{'threadName': 'MainThread',
+'name': 'root',
+'thread': 4064,
+'created': 1505885792.122,
+'process': 4960,
+'processName': 'MainProcess',
+'args': (),
+'module': 'pylog',
+'filename': 'pylog.py',
+ 'levelno': 30,
+ 'exc_text': None,
+  'pathname': 'C:/Users/BlueCard/PycharmProjects/untitled/func/pylog.py',
+  'lineno': 12,
+  'asctime': '2017-09-20 13:36:32,121',
+  'msg': 'warning',
+  'exc_info': None,
+  'message': 'warning',
+  'funcName': '<module>',
+  'relativeCreated': 6.999969482421875,
+   'levelname': 'WARNING',
+   'msecs': 121.99997901916504}
+
+   2017-09-20 13:36:32,121:WARNING warning
+2017-09-20 13:41:11,292 13 WARNING warning
+2017-09-20 13:41:11,292 14 ERROR esafbhiu
+2017-09-20 13:41:44,674 [Line=13] WARNING warning
+2017-09-20 13:41:44,674 [Line=14] ERROR esafbhiu

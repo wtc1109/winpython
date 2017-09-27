@@ -1,0 +1,26 @@
+missing module named PySide - imported by C:\Python27\lib\site-packages\pyinstaller-3.4.dev0+54ed99110-py2.7.egg\PyInstaller\loader\rthooks\pyi_rth_qt4plugins.py
+missing module named Crypto - imported by rng_base, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named 'Crypto.Util' - imported by posix, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named resource - imported by posix, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named os2 - imported by os, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named _emx_link - imported by os, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named ce - imported by os, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named riscos - imported by os, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named riscospath - imported by os, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named riscosenviron - imported by os, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named org - imported by pickle, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named pwd - imported by posixpath, shutil, tarfile, getpass, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named readline - imported by cmd, pdb, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named 'org.python' - imported by copy, C:\Users\BlueCard\PycharmProjects\winpython\file.py, xml.sax
+missing module named fcntl - imported by tempfile, subprocess, asyncore, C:\Users\BlueCard\PycharmProjects\winpython\file.py
+missing module named EasyDialogs - imported by getpass
+missing module named termios - imported by getpass
+missing module named _scproxy - imported by urllib
+missing module named SOCKS - imported by ftplib
+missing module named rourl2path - imported by urllib
+missing module named java - imported by xml.sax._exceptions
+missing module named _xmlplus - imported by xml
+missing module named _xmlrpclib - imported by xmlrpclib
+missing module named grp - imported by shutil, tarfile
+missing module named _sysconfigdata - imported by distutils.sysconfig

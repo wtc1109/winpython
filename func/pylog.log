@@ -1,35 +1,15 @@
-root:WARNING warning
-root:ERROR esafbhiu
-root:WARNING warning
-root:ERROR esafbhiu
-root:WARNING warning
-root:ERROR esafbhiu
-2017-09-20 13:36:14,733:WARNING warning
-2017-09-20 13:36:14,733:ERROR esafbhiu
-{'threadName': 'MainThread',
-'name': 'root',
-'thread': 4064,
-'created': 1505885792.122,
-'process': 4960,
-'processName': 'MainProcess',
-'args': (),
-'module': 'pylog',
-'filename': 'pylog.py',
- 'levelno': 30,
- 'exc_text': None,
-  'pathname': 'C:/Users/BlueCard/PycharmProjects/untitled/func/pylog.py',
-  'lineno': 12,
-  'asctime': '2017-09-20 13:36:32,121',
-  'msg': 'warning',
-  'exc_info': None,
-  'message': 'warning',
-  'funcName': '<module>',
-  'relativeCreated': 6.999969482421875,
-   'levelname': 'WARNING',
-   'msecs': 121.99997901916504}
-
-   2017-09-20 13:36:32,121:WARNING warning
-2017-09-20 13:41:11,292 13 WARNING warning
-2017-09-20 13:41:11,292 14 ERROR esafbhiu
-2017-09-20 13:41:44,674 [Line=13] WARNING warning
-2017-09-20 13:41:44,674 [Line=14] ERROR esafbhiu
+2017-09-22 15:34:58,062 [Line=21] DEBUG safhihi
+2017-09-22 15:34:58,062 [Line=22] ERROR sfui
+2017-09-22 15:35:19,674 [Line=22] DEBUG safhihi
+2017-09-22 15:35:19,674 [Line=23] ERROR sfui
+2017-09-22 15:35:26,598 [Line=22] DEBUG safhihi
+2017-09-22 15:35:26,598 [Line=23] ERROR sfui
+2017-09-22 15:35:35,782 [Line=22] DEBUG safhihi
+2017-09-22 15:35:35,782 [Line=23] ERROR sfui
+2017-09-22 15:35:48,053 [Line=22] DEBUG safhihi
+2017-09-22 15:35:48,053 [Line=23] ERROR sfui
+2017-09-22 15:35:58,450 [Line=23] ERROR sfui
+2017-09-22 15:38:21,536 [Line=23] ERROR sfui
+2017-09-22 15:38:51,440 [Line=20] ERROR sfui
+2017-09-22 15:39:24,880 [Line=20] ERROR sfui
+{'threadName': 'MainThread', 'name': '12', 'thread': 4620, 'created': 1506069146.786, 'process': 5460, 'processName': 'MainProcess', 'args': (), 'module': 'pylog', 'filename': 'pylog.py', 'levelno': 40, 'exc_text': None, 'pathname': 'C:/Users/BlueCard/PycharmProjects/winpython/func/pylog.py', 'lineno': 20, 'msg': 'sfui', 'exc_info': None, 'message': 'sfui', 'funcName': '<module>', 'relativeCreated': 11002.000093460083, 'levelname': 'ERROR', 'msecs': 786.0000133514404}(asctime)s [Line=20] ERROR sfui

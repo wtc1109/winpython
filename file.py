@@ -42,7 +42,7 @@ class MyWindow(QDialog,QWidget):
         self.openFileDirButton.clicked.connect(self.openFileDirectory)
         """
         self.openFileDirButton = QPushButton()
-        self.openFileDirButton.setText(u"压缩并加密文件夹")
+        self.openFileDirButton.setText(u"打包压缩并加密文件夹")
         self.mainlayout.addWidget(self.openFileDirButton, 3, 0, 1, 1)
         self.openFileDirButton.clicked.connect(self.compress)
     """

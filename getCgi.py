@@ -35,7 +35,7 @@ test_data = {'name': 'testmq', 'opt':'get', 'ver':'2', 'data':'asdfih'}
 test_data_encode = urllib.urlencode(test_data)
 print test_data_encode
 test_data2 = {}
-requrl = "http://192.168.7.169/cgi-bin/status.cgi"
+requrl = "http://192.168.7.231/cgi-bin/status.cgi"
 res_data = urllib2.urlopen(requrl)
 res = res_data.read()
 print res

@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d531ff13-0f1f-45ab-a566-6fbe60e86597" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/rectangle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/ucmp_setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mylogger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/file/out00-PKG.pkg" afterPath="$PROJECT_DIR$/build/file/out00-PKG.pkg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/file.exe" afterPath="$PROJECT_DIR$/dist/file.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ttar.tar.gz" afterPath="$PROJECT_DIR$/dist/ttar.tar.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/update.bin" afterPath="$PROJECT_DIR$/dist/update.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/update.tar.gz" afterPath="$PROJECT_DIR$/dist/update.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/GBK.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/insert_dev.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/newdevice_mssql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/newdevice_mssql_cgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/sqlite_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/file/out00-EXE.toc" afterPath="$PROJECT_DIR$/build/file/out00-EXE.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/qt.conf" afterPath="$PROJECT_DIR$/dist/qt.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.py" afterPath="$PROJECT_DIR$/file.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/env.py" afterPath="$PROJECT_DIR$/func/env.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getCgi.py" afterPath="$PROJECT_DIR$/getCgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post_a_file.py" afterPath="$PROJECT_DIR$/post_a_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_get.py" afterPath="$PROJECT_DIR$/ucmq_get_get.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_put.py" afterPath="$PROJECT_DIR$/ucmq_get_put.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/udp1.py" afterPath="$PROJECT_DIR$/udp1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.py" afterPath="$PROJECT_DIR$/post.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/producer1.py" afterPath="$PROJECT_DIR$/producer1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_put_vbox.py" afterPath="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +27,8 @@
       <file leaf-file-name="env.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -44,95 +36,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ucmq_get_put.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
+      <file leaf-file-name="getCgi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getCgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rectangle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/rectangle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucmq_get_put_vbox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucmq_get_get.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ucmq_get_get.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publisher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/publisher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="144">
+              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding>
-                <element signature="e#25#39#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="producer1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/producer1.py">
+      <file leaf-file-name="post.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/zipfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22550">
+              <caret line="906" column="8" lean-forward="false" selection-start-line="906" selection-start-column="8" selection-end-line="906" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newdevice_mssql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/newdevice_mssql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="151" column="34" lean-forward="false" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factory_tools.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/factory_tools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ucmp_setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/ucmp_setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m2aes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/m2aes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getCgi.py">
+      <file leaf-file-name="conf.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/conf.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="200">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wtclib_mssql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/wtclib_mssql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="85" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mssql_cgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/www/cgi-bin/mssql_cgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="e#18#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert_dev.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/insert_dev.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -146,6 +144,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DeviceDB</find>
+      <find>excute</find>
+      <find>execute</find>
+      <find>get_a_mssql_cur_once</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -169,20 +175,37 @@
         <option value="$PROJECT_DIR$/post_a_file.py" />
         <option value="$PROJECT_DIR$/conf.conf" />
         <option value="$PROJECT_DIR$/airet.py" />
-        <option value="$PROJECT_DIR$/getCgi.py" />
         <option value="$PROJECT_DIR$/udp1.py" />
         <option value="$PROJECT_DIR$/func/ucmp_setup.py" />
         <option value="$PROJECT_DIR$/ucmq_get_get.py" />
-        <option value="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
-        <option value="$PROJECT_DIR$/func/env.py" />
         <option value="$PROJECT_DIR$/func/rectangle.py" />
         <option value="$PROJECT_DIR$/ucmq_get_put.py" />
+        <option value="$PROJECT_DIR$/func/GBK.py" />
+        <option value="$PROJECT_DIR$/producer1.py" />
+        <option value="$PROJECT_DIR$/func/newdevicecgi.py" />
+        <option value="C:/www/cgi-bin/newdevicecgi.py" />
+        <option value="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
+        <option value="$PROJECT_DIR$/func/sqlite_test.py" />
+        <option value="$PROJECT_DIR$/func/insert_dev.py" />
+        <option value="$PROJECT_DIR$/newdevice_mssql.py" />
+        <option value="$PROJECT_DIR$/func/wtclib.py" />
+        <option value="$PROJECT_DIR$/func/wtclib_mssql.py" />
+        <option value="$PROJECT_DIR$/func/newdevice_mssql_cgi.py" />
+        <option value="$PROJECT_DIR$/func/newdevice_mssql.py" />
+        <option value="$PROJECT_DIR$/func/tactory_tools.py" />
+        <option value="$PROJECT_DIR$/func/conf.ini" />
+        <option value="C:/www/cgi-bin/mssql_cgi.py" />
+        <option value="$PROJECT_DIR$/post.py" />
+        <option value="$PROJECT_DIR$/func/env.py" />
+        <option value="$PROJECT_DIR$/getCgi.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1692" />
-    <option name="height" value="1010" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -199,8 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,6 +233,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="winpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="used" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,6 +272,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="last_opened_file_path" value="C:/Python27/python.exe" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BlueCard\PycharmProjects\winpython\func" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -247,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ucmq_get_put">
+  <component name="RunManager" selected="Python.getCgi">
     <configuration default="false" name="env" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,25 +308,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ucmq_get_put" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mssql_cgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="C:/www/cgi-bin" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucmq_get_put.py" />
+      <option name="SCRIPT_NAME" value="C:/www/cgi-bin/mssql_cgi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ucmp_setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="tactory_tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -296,13 +338,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/ucmp_setup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/tactory_tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ucmq_get_get" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="getCgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -314,25 +356,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucmq_get_get.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getCgi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="post" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/rectangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/post.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,18 +446,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.env" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ucmq_get_put" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ucmp_setup" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ucmq_get_get" />
-      <item index="4" class="java.lang.String" itemvalue="Python.rectangle" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mssql_cgi" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tactory_tools" />
+      <item index="3" class="java.lang.String" itemvalue="Python.getCgi" />
+      <item index="4" class="java.lang.String" itemvalue="Python.post" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ucmq_get_put" />
-        <item index="1" class="java.lang.String" itemvalue="Python.rectangle" />
-        <item index="2" class="java.lang.String" itemvalue="Python.env" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ucmq_get_get" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ucmp_setup" />
+        <item index="0" class="java.lang.String" itemvalue="Python.getCgi" />
+        <item index="1" class="java.lang.String" itemvalue="Python.env" />
+        <item index="2" class="java.lang.String" itemvalue="Python.post" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mssql_cgi" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tactory_tools" />
       </list>
     </recent_temporary>
   </component>
@@ -430,6 +472,14 @@
       <option name="presentableId" value="Default" />
       <updated>1505898275816</updated>
     </task>
+    <task id="LOCAL-00001" summary="2017 11 13">
+      <created>1510535518175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510535518175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -462,18 +512,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1692" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25245097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15647922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.49019608" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.50735295" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764706" sideWeight="0.6194853" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.49264705" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.4852941" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32794458" sideWeight="0.50977993" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.369515" sideWeight="0.5464548" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32794458" sideWeight="0.49022004" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.4828851" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.7769608" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39882353" sideWeight="0.7457108" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.74022007" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39145496" sideWeight="0.7591687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -481,11 +530,16 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2017 11 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017 11 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,7 +556,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>46</line>
+          <line>75</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -517,17 +571,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>41</line>
+          <line>70</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>40</line>
+          <line>69</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>34</line>
+          <line>63</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -537,12 +591,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>20</line>
+          <line>49</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>15</line>
+          <line>44</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -565,6 +619,81 @@
           <line>96</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/GBK.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/GBK.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/producer1.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/env.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/env.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/sqlite_test.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/sqlite_test.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/newdevicecgi.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/env.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/env.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/www/cgi-bin/mssql_cgi.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/newdevice_mssql_cgi.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/www/cgi-bin/mssql_cgi.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/getCgi.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/env.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -573,117 +702,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="105" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/posthtml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post_a_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/pylog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/logging/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1334" column="0" lean-forward="false" selection-start-line="1334" selection-start-column="0" selection-end-line="1334" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/pylog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/urllib2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1197" column="0" lean-forward="false" selection-start-line="1197" selection-start-column="0" selection-end-line="1197" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/aestest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.c" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/PyQt4/QtGui/QGridLayout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/targzip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="84" column="42" lean-forward="false" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/tarfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42050">
-          <caret line="1692" column="0" lean-forward="false" selection-start-line="1692" selection-start-column="0" selection-end-line="1692" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/M2Crypto/EVP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2263">
@@ -754,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3350">
-          <caret line="141" column="14" lean-forward="false" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func/dicx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,31 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/htmlpar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/post_a_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/udp1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -843,16 +838,8 @@
         <state relative-caret-position="325">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getCgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,31 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ucmq_get_get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/producer1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,35 +854,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/rectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/GBK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/www/cgi-bin/newdevicecgi.py" />
+    <entry file="file://$PROJECT_DIR$/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3350">
+          <caret line="141" column="14" lean-forward="false" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucmq_get_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/insert_dev.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/wtclib.py" />
+    <entry file="file://$PROJECT_DIR$/func/sqlite_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/newdevicecgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
+            <element signature="e#18#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/pymssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="708" column="15" lean-forward="false" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/htmlpar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql_cgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1775">
+          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <element signature="e#18#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/insert_dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/tactory_tools.py" />
+    <entry file="file://$PROJECT_DIR$/func/factory_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22550">
+          <caret line="906" column="8" lean-forward="false" selection-start-line="906" selection-start-column="8" selection-end-line="906" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/wtclib_mssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="85" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="151" column="34" lean-forward="false" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/www/cgi-bin/mssql_cgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func/env.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/rectangle.py">
+    <entry file="file://$PROJECT_DIR$/getCgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

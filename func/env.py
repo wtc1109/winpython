@@ -4,7 +4,36 @@ import time
 import datetime
 import math
 import struct
+import difflib
+import zipfile
+import tarfile
+en = zipfile.is_zipfile("env.zip")
+zip0 = zipfile.ZipFile("env.zip",'r')
+info0 = zip0.namelist()
+
+en1 = zipfile.is_zipfile("env.rar")
+en2 = tarfile.is_tarfile("ttar.tar.gz")
+tar2 = tarfile.open("ttar.tar.gz")
+info2 = tar2.getmembers()
+print time.asctime()
+now = datetime.datetime.now()
+print str(now)
 hex_str = "1a2b3c"
+rgb = "R:0,G:80,B:0"
+rgb3="R:80,G:80,B:10"
+match = difflib.SequenceMatcher(None,rgb, rgb3)
+fl1 = match.ratio()
+rgb1=rgb.split(',')
+rgb2={}
+for rg in rgb1:
+    rg2 = rg.split(':')
+    rgb2.update({rg2[0]:rg2[1]})
+
+dic2=json.dumps(rgb)
+xy = [1,2,5,4,3]
+_pos = [None,None,None]
+_pos[0] = "sef"
+_m = xy.pop(xy.index(max(xy)))
 _int_1 = int(hex_str,16)
 _int_val = hex_str.encode("ascii")
 #(val,) = struct.unpack("<L",bytes(_int_val))

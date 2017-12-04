@@ -1,7 +1,7 @@
 import pika, sys
 
-credentials = pika.PlainCredentials("guest", "guest")
-conn_params = pika.ConnectionParameters("192.168.7.19", credentials=credentials)
+credentials = pika.PlainCredentials("wutao", "12345678")
+conn_params = pika.ConnectionParameters("192.168.7.13", credentials=credentials)
 conn_broker = pika.BlockingConnection(conn_params)
 channel = conn_broker.channel()
 channel.exchange_declare(exchange="hello-exchange", exchange_type="direct",

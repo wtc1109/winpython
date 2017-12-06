@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d531ff13-0f1f-45ab-a566-6fbe60e86597" name="Default" comment="">
+    <list default="true" id="d531ff13-0f1f-45ab-a566-6fbe60e86597" name="Default" comment="add hvpd ip addr to mssql,so it is very easy to connect to hvpd's images url">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/HVCS_screen2_config_1609417004_146.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/HVCS_screen_config_1609417004_146.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/Producer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/Producer.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/env.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/env.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/hvpd.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/ttar.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/winpython.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/airet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/HVCS_parking_address_146.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/HVCS_region_config_146.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/HVCS_reserved_parking_146.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/HVCS_screen_connect_146.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/conf.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/123.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/NewDeviceSetup.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/SetupUdpserver.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/conf.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/factory_tools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/factory_tools.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/insert_dev.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/newdevice_mssql2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/newdevicecgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/tactory_tools.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/wtclib_mssql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/led_displayer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/env.py" afterPath="$PROJECT_DIR$/func/env.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_put.py" afterPath="$PROJECT_DIR$/ucmq_get_put.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_put_vbox.py" afterPath="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +117,8 @@
       <file leaf-file-name="ucmq_get_put_vbox.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="125">
+              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -123,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -227,6 +256,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="winpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="func" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512374047999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add hvpd ip addr to mssql,so it is very easy to connect to hvpd's images url">
+      <created>1512532883847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512532883847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add hvpd ip addr to mssql,so it is very easy to connect to hvpd's images url">
+      <created>1512534048944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512534048944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -489,12 +546,12 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.49019608" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32101616" sideWeight="0.5122249" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32678983" sideWeight="0.28178483" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764706" sideWeight="0.5342298" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32101616" sideWeight="0.48777506" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32101616" sideWeight="0.4828851" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.4828851" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32705882" sideWeight="0.7292176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32678983" sideWeight="0.71821517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39882353" sideWeight="0.7408313" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,7 +570,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2017 11 13" />
     <MESSAGE value="Factory setup tools connect to SQL server in wuxi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory setup tools connect to SQL server in wuxi." />
+    <MESSAGE value="add hvpd ip addr to mssql,so it is very easy to connect to hvpd's images url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hvpd ip addr to mssql,so it is very easy to connect to hvpd's images url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,7 +1054,7 @@
     <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1031,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="125">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
         </state>
       </provider>

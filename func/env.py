@@ -17,6 +17,8 @@ tar2 = tarfile.open("ttar.tar.gz")
 info2 = tar2.getmembers()
 print time.asctime()
 now = datetime.datetime.now()
+stamp = datetime.datetime.fromtimestamp(time.time()-3600)
+print now < stamp
 print str(now)
 hex_str = "1a2b3c"
 rgb = "R:0,G:80,B:0"

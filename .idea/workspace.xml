@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d531ff13-0f1f-45ab-a566-6fbe60e86597" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/GBK.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/insert_dev.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/newdevice_mssql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/newdevice_mssql_cgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/func/sqlite_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func/env.py" afterPath="$PROJECT_DIR$/func/env.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getCgi.py" afterPath="$PROJECT_DIR$/getCgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.py" afterPath="$PROJECT_DIR$/post.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/producer1.py" afterPath="$PROJECT_DIR$/producer1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_put.py" afterPath="$PROJECT_DIR$/ucmq_get_put.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ucmq_get_put_vbox.py" afterPath="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/func/env.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="57" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -36,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCgi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getCgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getCgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="1225">
+              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -51,8 +44,8 @@
       <file leaf-file-name="post.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -71,7 +64,7 @@
       <file leaf-file-name="newdevice_mssql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/newdevice_mssql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="-331">
               <caret line="151" column="34" lean-forward="false" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -80,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factory_tools.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/factory_tools.py">
+      <file leaf-file-name="newdevice_mssql2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/func/newdevice_mssql2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="74">
+              <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -92,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/conf.ini">
+      <file leaf-file-name="ucmq_get_put_vbox.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="175">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -105,7 +98,7 @@
       <file leaf-file-name="wtclib_mssql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/wtclib_mssql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="1750">
               <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="85" selection-end-column="18" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -117,8 +110,8 @@
       <file leaf-file-name="mssql_cgi.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/www/cgi-bin/mssql_cgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="-741">
+              <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
               <folding>
                 <element signature="e#18#32#0" expanded="true" />
               </folding>
@@ -126,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert_dev.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func/insert_dev.py">
+      <file leaf-file-name="ucmq_get_put.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="500">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -179,12 +172,10 @@
         <option value="$PROJECT_DIR$/func/ucmp_setup.py" />
         <option value="$PROJECT_DIR$/ucmq_get_get.py" />
         <option value="$PROJECT_DIR$/func/rectangle.py" />
-        <option value="$PROJECT_DIR$/ucmq_get_put.py" />
         <option value="$PROJECT_DIR$/func/GBK.py" />
         <option value="$PROJECT_DIR$/producer1.py" />
         <option value="$PROJECT_DIR$/func/newdevicecgi.py" />
         <option value="C:/www/cgi-bin/newdevicecgi.py" />
-        <option value="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
         <option value="$PROJECT_DIR$/func/sqlite_test.py" />
         <option value="$PROJECT_DIR$/func/insert_dev.py" />
         <option value="$PROJECT_DIR$/newdevice_mssql.py" />
@@ -194,10 +185,13 @@
         <option value="$PROJECT_DIR$/func/newdevice_mssql.py" />
         <option value="$PROJECT_DIR$/func/tactory_tools.py" />
         <option value="$PROJECT_DIR$/func/conf.ini" />
-        <option value="C:/www/cgi-bin/mssql_cgi.py" />
         <option value="$PROJECT_DIR$/post.py" />
-        <option value="$PROJECT_DIR$/func/env.py" />
         <option value="$PROJECT_DIR$/getCgi.py" />
+        <option value="$PROJECT_DIR$/func/env.py" />
+        <option value="$PROJECT_DIR$/func/newdevice_mssql2.py" />
+        <option value="$PROJECT_DIR$/ucmq_get_put.py" />
+        <option value="C:/www/cgi-bin/mssql_cgi.py" />
+        <option value="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
       </list>
     </option>
   </component>
@@ -236,34 +230,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="winpython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="winpython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="used" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="winpython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="winpython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="func" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -289,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getCgi">
+  <component name="RunManager" selected="Python.ucmq_get_put_vbox">
     <configuration default="false" name="env" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,6 +269,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="winpython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="newdevice_mssql2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="winpython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/newdevice_mssql2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ucmq_get_put" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="winpython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucmq_get_put.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,25 +328,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="tactory_tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/func" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/func/tactory_tools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="getCgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ucmq_get_put_vbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -356,25 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getCgi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="post" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="winpython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/post.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucmq_get_put_vbox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,18 +412,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.env" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mssql_cgi" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tactory_tools" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getCgi" />
-      <item index="4" class="java.lang.String" itemvalue="Python.post" />
+      <item index="1" class="java.lang.String" itemvalue="Python.newdevice_mssql2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ucmq_get_put" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mssql_cgi" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ucmq_get_put_vbox" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getCgi" />
-        <item index="1" class="java.lang.String" itemvalue="Python.env" />
-        <item index="2" class="java.lang.String" itemvalue="Python.post" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mssql_cgi" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tactory_tools" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ucmq_get_put_vbox" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mssql_cgi" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ucmq_get_put" />
+        <item index="3" class="java.lang.String" itemvalue="Python.newdevice_mssql2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.env" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510535518175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory setup tools connect to SQL server in wuxi.">
+      <created>1512374047999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512374047999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -514,15 +487,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15647922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.49019608" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32794458" sideWeight="0.50977993" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.369515" sideWeight="0.5464548" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32794458" sideWeight="0.49022004" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32101616" sideWeight="0.5122249" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764706" sideWeight="0.5342298" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32101616" sideWeight="0.48777506" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.4828851" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.74022007" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39145496" sideWeight="0.7591687" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32705882" sideWeight="0.7292176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39882353" sideWeight="0.7408313" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -539,7 +512,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2017 11 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017 11 13" />
+    <MESSAGE value="Factory setup tools connect to SQL server in wuxi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory setup tools connect to SQL server in wuxi." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,7 +530,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>75</line>
+          <line>77</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -571,17 +545,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>70</line>
+          <line>72</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>69</line>
+          <line>71</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>63</line>
+          <line>65</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -591,12 +565,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>49</line>
+          <line>51</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>44</line>
+          <line>46</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -636,12 +610,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -661,28 +635,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>31</line>
+          <line>33</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/www/cgi-bin/mssql_cgi.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/newdevice_mssql_cgi.py</url>
           <line>67</line>
           <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/www/cgi-bin/mssql_cgi.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/getCgi.py</url>
@@ -691,8 +655,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/func/env.py</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/func/newdevice_mssql2.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/www/cgi-bin/mssql_cgi.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -702,18 +676,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="105" />
+      <option name="time" value="114" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/M2Crypto/EVP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2263">
-          <caret line="130" column="56" lean-forward="false" selection-start-line="130" selection-start-column="56" selection-end-line="130" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/file.py" />
     <entry file="file://$PROJECT_DIR$/tartest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -880,14 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/producer1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -915,13 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -955,17 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql_cgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="33" />
-          <folding>
-            <element signature="e#18#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +924,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1006,7 +947,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/func/wtclib_mssql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="1750">
           <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="85" selection-end-column="18" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -1016,28 +957,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql.py">
+    <entry file="file://$PROJECT_DIR$/getCgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="151" column="34" lean-forward="false" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+        <state relative-caret-position="1225">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/www/cgi-bin/mssql_cgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1045,20 +976,64 @@
     <entry file="file://$PROJECT_DIR$/func/env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getCgi.py">
+    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="-331">
+          <caret line="151" column="34" lean-forward="false" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucmq_get_put.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/www/cgi-bin/mssql_cgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql_cgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/newdevice_mssql2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucmq_get_put_vbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

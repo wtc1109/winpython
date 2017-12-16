@@ -1,14 +1,14 @@
 import urllib, urllib2, time, json
 """use get method to send ucmq msg"""
 
-data_str = {"sn":"1711430006","ip":"192.168.7.148","pic_sn":"963185",\
+data_str = {"sn":"1712430005","ip":"192.168.7.29","pic_sn":"963185",\
             "location":"/images/ai0.jpg","type_for":"place", "exp":"12365",\
-            "gain":"125", "slave":0,"neighbor":"1823456788","bluetooth":"654321",
+            "gain":"125", "slave":0,"neighbor":"1712430006","bluetooth":"654321",
             "definition":"500", "why":"auto", "CMOS":0}
 data_json = json.dumps(data_str)
 test_data = {'name': 'downloadmq', 'opt':'put', 'ver':'2', 'data':json.dumps(data_str)}
 test_data_encode = urllib.urlencode(test_data)
-data_str2 = {"sn":"123d456789abc1","ip":"192.168.7.148","pic_sn":"963186",\
+data_str2 = {"sn":"1712430006","ip":"192.168.7.22","pic_sn":"963186",\
             "location":"/images/ai0.jpg","type_for":"place", "exp":"12365",\
             "gain":"125", "slave":0, "definition":"500", "why":"ai", "CMOS":1,"placeGet":0}
 
@@ -21,7 +21,7 @@ print start
 data_str2["pic_sn"] = str(time.time())
 test_data2 = {'name': 'downloadmq', 'opt': 'put', 'ver': '2', 'data': json.dumps(data_str2)}
 test_data_encode2 = urllib.urlencode(test_data2)
-for i in range(1):
+for i in range(10):
     res_data = urllib2.urlopen(requrl + "?" + test_data_encode)
     res = res_data.read()
     res_data.close()
